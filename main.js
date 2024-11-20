@@ -1,1 +1,1 @@
-window.alert("HI!!!")
+document.alert("HI!!!")
