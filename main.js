@@ -1,3 +1,3 @@
-document.alert("HI!!!")
+alert("HI!!!")
 
 console.log("NOW!!!");
