@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Link</title>
 </head>
-<body>
+    <a href="./icon.gif" target="_blank" download>
+        <img src="./icon.gif" alt="icon"> 
+    </a>
+    <script src="main.js"></script>
+    <br>
+
     <script type="application/javascript">
 		function getIP(json) {
-		  document.write("My public IP address is: ", json.ip);
-		}
+		    document.write("Your public IP address is: ", json.ip);
+            //localStorage.setItem("USER_IP", JSON.stringify(json.ip))
+        }
 	</script>
 	<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP">
 	  //call function
 	  //getIP()
 	</script>
 
-    <a href="./icon.gif" target="_blank" download>
-        <img src="./icon.gif" alt="icon"> 
-    </a>
-    <script src="main.js"></script>
 </body>
 </html>
